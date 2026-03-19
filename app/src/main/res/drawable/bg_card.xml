@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Shadow layer for elevation effect -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#1A000000" />
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+
+    <!-- Main card background with stroke -->
+    <item android:bottom="2dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/background" />
+            <stroke android:width="0.5dp" android:color="@color/border_light" />
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+
+</layer-list>
